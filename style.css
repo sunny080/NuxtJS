@@ -303,3 +303,13 @@ width: 100%;
     color: #003c3c;
     margin: 50px;
 } 
+@media (max-width:730px) {
+    .hopt{
+        font-size: 60px;
+        margin: 20px;
+    }
+    .holp{
+        font-size: 60px;
+    }
+    
+}
