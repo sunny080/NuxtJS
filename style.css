@@ -1,0 +1,305 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.fily{
+    height: 8vh;
+    width: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+.doud{
+    width: 100%;
+    height: 870px;
+}
+.gio{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    right: 20px;
+    opacity: .5;
+    z-index:0;
+    top: 380px;
+}
+.gpo{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 50px;
+    opacity: .2;
+    z-index:0;
+    top: 900px;
+}
+.head{
+    top: 0;
+    left: 0;
+    position: absolute;
+display: flex;
+justify-content: center;
+width: 100%;
+}
+.boni{
+    display: flex;
+    height: 100px;
+    width: 90%;
+    align-items: center;
+    justify-content: space-between;
+}
+.jimy{
+    display: flex;
+    align-items: center;
+}
+.dod{
+    height: 50px;
+    width: 50px;
+}
+.slim{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    margin-left: 5px;
+    color: #fff;
+}
+.bhem{
+    align-items: center;
+}
+.hij{
+    display: flex;
+    list-style:none;
+
+}
+.kopl{
+    margin: 0px 10px;
+    color: #fff;
+    cursor: pointer;
+
+}
+.kin{
+    display: flex;
+    align-items: center;
+
+}
+.hop{
+    margin-right: 20px;
+    font-size: 25px;
+    color: #fff;
+
+}
+.mols{
+    height: 40px;
+    width: 140px;
+    color:#013e3e;
+    background: #0cd587;
+    font-weight: 900;
+    border: none;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.molp{
+    font-size: 35px;
+    display: none;
+    cursor: pointer;
+    color: #fff;
+}
+.gogt{
+    font-size: 35px;
+    display: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+@media (max-width:950px) {
+    .mols{
+        width:110px;
+    }
+    .hop{
+        font-size: 20px;
+    }
+    .kopl{
+        font-size: 15px;
+    }
+    .dod{
+    height: 40px;
+    width: 40px;
+
+    }
+    .slim{
+        font-size: 25px;
+    }    
+}
+@media (max-width:820px){
+    .bhem{
+        transition: all .5s;
+        position: absolute;
+        left: -0px;
+        top: 0;
+        margin-left: -200px;
+
+        width: 200px;
+        height:100vh;
+        background: rgb(0, 0, 0);
+
+    }
+    .kopl{
+        margin: 20px;
+      
+    }
+   
+    .hij{
+        margin-top: 100px;
+        flex-direction: column;
+        text-align: center;
+        
+        
+    }
+    .molp{
+        display: block;
+    }
+    .gogt{
+        display: block;
+        margin-left: 85px;
+    }
+    .mols{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.holk{
+    text-align: center;
+    justify-content: center;
+    margin-top: 190px;
+    width: 100%;
+}
+.halik{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
+.gop{
+    font-size: 70px;
+
+    line-height: 100px;
+    color: #fff;
+}
+.khali{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 20px;
+    color: #5b7a7a;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.himp{
+    margin-top: 40px;
+}
+.njo{
+    width: 150px;
+    height: 50px;
+    background: #00dc82;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    color: #013e3e;
+}
+.mino{
+
+    width: 150px;
+    height: 50px;
+    background: #ffffff;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    color: #013e3e;
+    
+    
+}
+@media (max-width:740px){
+    .khali{
+        line-height: 20px;
+        width: 80%;
+        margin-left: 10%;
+        font-size: 13px;
+    }
+    .gop{
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+.goply{
+  width: 60%;
+  margin-top: 108px;
+  margin-left: 20%;
+
+}
+.hoplj{
+    rotate: 10deg;
+    width: 100%;
+    border-radius: 15px;
+}
+@media (max-width:810px) {
+    .gio{
+        display: none;
+    }
+    .gpo{
+        top: 600px;
+        width: 250px;
+        height: 250px;
+        left: 0;
+    }
+    .goply{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    
+}
+.flop{
+    color: #003c3c;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 500;
+}
+
+.holp{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+.hopt{
+    font-size: 80px;
+    color: #003c3c;
+    margin: 50px;
+} 
