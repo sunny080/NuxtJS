@@ -54,8 +54,13 @@ width: 100%;
     justify-content: space-between;
 }
 .jimy{
+    cursor: pointer;
     display: flex;
     align-items: center;
+}
+.jimy:hover > .slim{
+    transition: .2s;
+    color: rgba(255, 255, 255, 0.493);
 }
 .dod{
     height: 50px;
@@ -144,7 +149,7 @@ width: 100%;
 
         width: 200px;
         height:100vh;
-        background: rgb(0, 0, 0);
+        background: #000000d8;
 
     }
     .kopl{
@@ -264,7 +269,7 @@ width: 100%;
 
 }
 .hoplj{
-    rotate: 10deg;
+    transform: rotate(10deg);
     width: 100%;
     border-radius: 15px;
 }
@@ -312,4 +317,161 @@ width: 100%;
         font-size: 60px;
     }
     
+}
+
+.jhloa{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+
+}
+.jhlia{
+    display: flex;
+    width: 80%;
+    
+}
+.goplu{
+    width: 50%;
+    height: 500px;
+}
+.kljh{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.doplw{
+    font-size: 40px;
+    font-weight: 500;
+    width: 400px;
+    line-height: 60px;
+    color: #003c3c;
+}
+.pera{
+    margin-top: 25px;
+    color: #003c3c;
+    line-height: 30px;
+    font-size: 19px;
+    width: 400px;
+}
+
+.shift{
+    margin-top: 30px;
+    height: 50px;
+    color: #003c3c;
+    width: 200px;
+    font-size: 16px;
+    background: #00dc82;
+    border: none;
+    outline: none;
+    font-weight: 600;
+    border-radius: 10px;
+
+}
+.slpom{
+  height: 400px;
+  
+}
+.goip{
+    display: flex;
+    justify-content: center;
+border-radius: 10% / 50%;
+background: #bbede1;
+height: 400px;
+width: 500px;
+}
+.line
+{
+    position: absolute;
+    top: 1500px;
+    width: 100%;
+    z-index: -3;
+    overflow-x: hidden;
+    height: 900px;
+}
+@media (max-width:1070px) {
+    .goip{
+        width: 300px;
+    }
+    .doplw{
+        font-size: 30px;
+        width: 300px;
+    }
+    .pera{
+        font-size: 17px;
+        width: 100%;
+    }
+    
+}
+@media (max-width:690px){
+    .jhlia{
+        flex-direction: column;
+
+    }
+    .goplu{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .doplw{
+        width: 100%;
+        text-align: center;
+    }
+    .pera{
+        width: 100%;
+        text-align: center;
+    }
+    .shift{
+        width: 60%;
+        margin-left: 20%;
+
+    }
+    .kljh{
+        width: 100%;
+    }
+    .goip{
+        width: 100%;
+    }
+    .jhloa{
+        margin-top: -50px;
+    }
+    .line{
+        height: auto;
+    }
+
+} 
+.jhlea{
+    width: 80%;
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.goeip{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+border-radius: 10% / 50%;
+background: #e5edbb;
+height: 400px;
+}
+.slpoo{
+    width: 90%;
+}
+.goplru{
+    width: 50%;
+    height: 340px;
+    padding-left: 10%;
+}
+@media (max-width:690px){
+    .jhlea{
+        flex-direction: column;
+    }
+    .goplru{
+        width: 100%;
+        padding-left: 0;
+    }
 }
