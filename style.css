@@ -386,6 +386,7 @@ width: 500px;
 }
 .line
 {
+    opacity: .7;
     position: absolute;
     top: 1000px;
     width: 100%;
@@ -816,7 +817,7 @@ img{
 .jamal{
     height: 330px;
     margin-bottom: 30px;
-    width: 350px;
+    width: 300px;
     margin-right: 20px;
     background: #e6f0f1;
 
@@ -845,3 +846,46 @@ img{
     font-weight: 500;
 }
 
+
+
+
+
+
+
+
+
+
+.show{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+
+}
+.shogun{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    color: #fff;
+    text-align: center;
+
+}
+.laga{
+
+    width: 200px;
+    height: 200px;
+}
+.ela{
+    font-size: 70px;
+}
+.fopp{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.era{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
